@@ -1,0 +1,80 @@
+@import './../../colors';
+
+// Dashboard.scss
+
+.Dashboard-container {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+  }
+  
+  .Dashboard-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .Dashboard-container form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .Dashboard-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    margin-left: -10px;
+  }
+  
+  .Dashboard-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .Dashboard-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .Dashboard-container form input[type='text'],
+  .Dashboard-container form input[type='password'] {
+    font-size: 16px;
+  }
+  
+  .Dashboard-container form input::placeholder {
+    color: #999;
+  }
+  
+  .Dashboard-container form button[type='submit'] {
+    background-color: #28a745;
+  }
+  
+  .Dashboard-container form button[type='submit']:hover {
+    background-color: #1d9239;
+  }
+  
+  .Dashboard-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .Dashboard-container th,
+  .Dashboard-container td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .Dashboard-container th {
+    font-weight: bold;
+  }
+  
+  
